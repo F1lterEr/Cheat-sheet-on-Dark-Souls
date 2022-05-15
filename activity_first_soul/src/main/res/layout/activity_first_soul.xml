@@ -6,24 +6,35 @@
     android:layout_height="match_parent"
     tools:context=".FirstSoulActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="478dp"
-        android:layout_height="165dp"
-        android:layout_marginTop="4dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
-
     <TextView
         android:id="@+id/textView"
-        android:layout_width="387dp"
-        android:layout_height="524dp"
-        android:layout_marginTop="24dp"
+        android:layout_width="372dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="На трупе, лежащем на алтаре в церкви Уезда Нежити, недалеко от лифта в Храм Огня, охраняется Рыцарем Береника."
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="394dp"
+        android:layout_height="232dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/f1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="392dp"
+        android:layout_height="219dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/f2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
