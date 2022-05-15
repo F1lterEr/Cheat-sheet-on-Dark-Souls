@@ -12,3 +12,4 @@ public class StartMenu extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 }
+//trajan pro
