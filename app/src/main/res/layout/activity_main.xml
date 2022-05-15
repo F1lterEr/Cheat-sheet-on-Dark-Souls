@@ -8,100 +8,99 @@
 
     <Button
         android:id="@+id/SeventhSoul"
-        android:layout_width="180dp"
+        android:layout_width="410dp"
         android:layout_height="50dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:text="Седьмая душа"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/SixthSoul"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.157" />
 
     <Button
         android:id="@+id/SixthSoul"
-        android:layout_width="180dp"
+        android:layout_width="410dp"
         android:layout_height="50dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:text="Шестая душа"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/FifthSoul" />
 
     <Button
         android:id="@+id/FifthSoul"
-        android:layout_width="180dp"
+        android:layout_width="410dp"
         android:layout_height="50dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:text="Пятая душа"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/FourthSoul" />
 
     <Button
         android:id="@+id/FourthSoul"
-        android:layout_width="180dp"
+        android:layout_width="410dp"
         android:layout_height="50dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:text="Четвертая душа"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ThirdSoul" />
 
     <Button
         android:id="@+id/ThirdSoul"
-        android:layout_width="180dp"
+        android:layout_width="410dp"
         android:layout_height="50dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:text="Третья душа"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/SecondSoul" />
 
     <Button
         android:id="@+id/SecondSoul"
-        android:layout_width="180dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="410dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="16dp"
         android:text="Вторая душа"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/FirstSoul" />
 
     <Button
         android:id="@+id/FirstSoul"
-        android:layout_width="180dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="410dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
         android:text="Первая душа"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="472dp"
-        android:layout_height="176dp"
+        android:layout_width="577dp"
+        android:layout_height="210dp"
         android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        tools:srcCompat="@drawable/mxyuuif1zbsyozeyxwluy7v7h4xulo7ne1yxaf3dzzxhbeojpx_bff_jue92_dktwgcmspsdjexaiuy_wzgln9g_" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="332dp"
         android:layout_height="40dp"
-        android:layout_marginTop="12dp"
-        android:text="В этом руководстве вы найдте местонахождение всех душ Хранительниц Огня!"
+        android:layout_marginTop="4dp"
+        android:text="В этом руководстве вы найдёте местонахождение всех душ Хранительниц Огня!"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
